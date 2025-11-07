@@ -1,0 +1,9 @@
+{
+  "name": "telegram",
+  "version": "1.0.0",
+  "description": "DO Functions: telegram webhook",
+  "type": "commonjs",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
