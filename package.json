@@ -1,0 +1,19 @@
+{
+  "name": "serverless-tgbot",
+  "version": "1.0.0",
+  "description": "A small serverless Telegram bot",
+  "type": "module",
+  "main": "functions/telegram/index.js",
+  "scripts": {
+    "start": "node functions/telegram/index.js",
+    "test": "echo \"No tests configured\" && exit 0",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
