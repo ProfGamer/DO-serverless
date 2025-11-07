@@ -1,0 +1,6 @@
+packages:
+  - name: bot
+    functions:
+      - name: telegram
+        runtime: nodejs:18
+        web: true         # 暴露为HTTP端点
